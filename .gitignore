@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Optional: lock files if using npm
+package-lock.json
+
+# Optional: lock files if using Yarn
+yarn.lock
+
+# Environment files (if you have any)
+.env
+.env.local
+.env.*.local
+
+# Build output (e.g., if using build tools like Webpack, Parcel, etc.)
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Miscellaneous
+*.tmp
+*.swp
+*.swo
+
+# Tailwind build artifacts (if Tailwind generates any files)
+public/tailwind/
